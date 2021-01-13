@@ -1,0 +1,314 @@
+
+body
+{
+	margin: 0;
+	font-family: 'Arial';
+}
+
+.centre
+{ 
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+#entete
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #80919E),
+	color-stop(1, #224A69)
+);
+background-image: -o-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -moz-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -webkit-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -ms-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: linear-gradient(to bottom, #80919E 0%, #224A69 100%);
+}
+#entete-centre
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #80919E),
+	color-stop(1, #224A69)
+);
+background-image: -o-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -moz-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -webkit-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -ms-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: linear-gradient(to bottom, #80919E 0%, #224A69 100%);
+}
+
+
+#logo 
+{
+	padding-top: 18px;
+}
+#logo h1
+ {
+ 	display: inline;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: normal;
+ 	font-size: 70px;
+ 	margin: 0;
+ 	color: #212424;
+	text-shadow: 2px 2px 0 #FFFFFF;
+ 	
+ 	
+ }
+#soustitre
+ {
+ 	display: inline;
+ 	margin-left: 15px;
+ 	font-size: 25px;
+ 	font-family: 'Courier Prime',normal ;
+ 	color:   #212424;
+	text-shadow: 1px 1px 0 #FFFFFF;
+ 	
+ 	
+ }
+ #menu 
+ {
+ 	margin-top: 30px;
+ 	margin-bottom: 25px; 
+
+ }
+
+#menu ul
+{
+	list-style: none;
+	background-color: #242424;
+	display: flex;
+	padding:0;
+	margin: 0;
+	overflow: hidden;
+	
+
+
+}
+#menu li 
+{
+ border:2px solid #242424;
+ border-left: 1px solid #323232;
+ border-right: 1px solid #131313;
+ position: relative;
+ 
+
+
+}
+ #menu li a
+{
+    /* on veut pouvoir agrandir le lien, ce qui n'est pas possible en inline (par défaut) */
+    display: block;
+    padding: 17px 24px;
+    /* par défaut les liens sont soulignés... enlever */
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#menu li a:hover
+{
+	background-color: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #787878),
+	color-stop(1, #000000)
+);
+background-image: -o-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -moz-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -webkit-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -ms-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: linear-gradient(to bottom, #787878 0%, #000000 100%);
+}
+
+.image_p
+{
+	margin-top: 10px;
+    background-color: rgba(0,0,0,.1);
+    padding: 15px 10px; 
+    text-align: center;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+section,nav,article,aside,header,footer,main
+{
+    display: block;
+}
+
+
+.bienvenue 
+{
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Courier Prime', ;
+	font-size: 20px;
+}
+.bienvenue span
+{
+	font-size: 30px;
+
+}
+.bienvenue a
+{
+	text-decoration: none;
+	color: #000;
+}
+.bienvenue a:hover
+{
+	color: #224A69;
+}
+
+
+
+.date
+{	
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.date h2 
+{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.date span 
+{
+	font-size: 40px;
+	font-family: 'Courier Prime', ;
+}
+
+#principal
+{
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #224A69),
+	color-stop(1, #FAFAFA)
+);
+background-image: -o-linear-gradient(bottom, #224A69 0%, #FAFAFA 100%);
+background-image: -moz-linear-gradient(bottom, #224A69 0%, #FAFAFA 100%);
+background-image: -webkit-linear-gradient(bottom, #224A69 0%, #FAFAFA 100%);
+background-image: -ms-linear-gradient(bottom, #224A69 0%, #FAFAFA 100%);
+background-image: linear-gradient(to bottom, #224A69 0%, #FAFAFA 100%);
+}
+
+#boites
+{	
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.boite
+{
+	
+	width: 284px;
+	margin-right: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.boite:last-child
+{
+	margin-right: 0px;
+	
+
+}
+
+.boite img
+{
+	width: 284px;
+	border:2px solid white;
+	box-shadow: 3px 3px #1c2124;
+}
+
+.boite p 
+{
+	text-align: center;
+}
+.principal-ligne-bouton
+{
+	margin-top: 30px;
+}
+.gros-bouton
+{	
+
+	padding: 5px;
+	font-size: 20px;
+	color: #9bc3cc;
+	border: 1px solid #242424 ;
+	border-radius: 5px;
+	background-color: #9bc3cc;
+	box-shadow: 1px 1px black;
+}
+.gros-bouton a
+{
+	text-decoration: none;
+	color: #000;
+}
+.gros-bouton a:hover
+{
+	color: white;
+
+}
+
+#video
+{	
+	overflow: hidden;
+	background-color: white;
+	
+}
+.video
+{
+	margin-left: 45px; 
+	margin-top :60px; 
+}
+.text_video
+{	
+	margin-top:30px;
+	margin-bottom:50px; 
+}
+.text_video h2 
+{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+}
+.text_video span 
+{
+	font-size: 40px;
+	font-family: 'Courier Prime', ;
+}
+#bas-de-page
+{
+	background-image:url(images/footerbp.jpg);
+}
+
+#bas-de-page-centre
+{
+	text-align: center;
+	color: #555555;
+	font-family: 'Roboto', sans-serif;
+	font-size:13.5px;
+}
+
+#bas-de-page-centre span
+{
+	font-size: 13.5px;
+	font-family: 'Courier Prime', ;
+}

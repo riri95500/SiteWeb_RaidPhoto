@@ -1,0 +1,290 @@
+h1 { font-size: 90px;
+	white-space: nowrap;
+	overflow: hidden;
+text-overflow: ellipsis;}
+
+h3 {font-size: 40px;}
+p {color: white  ;}
+
+body
+{ 
+	margin:0;
+	font-family: 'Arial';
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #80919E),
+	color-stop(1, #224A69));
+background-image: -o-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -moz-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -webkit-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: -ms-linear-gradient(bottom, #80919E 0%, #224A69 100%);
+background-image: linear-gradient(to bottom, #80919E 0%, #224A69 100%);
+}
+.centre
+{ 
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+
+
+
+#logo 
+{
+	padding-top: 18px;
+	margin:0;
+}
+#logo h1
+ {
+ 	display: inline;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: normal;
+ 	font-size: 70px;
+ 	margin: 0;
+ 	color: #212424;
+	text-shadow: 2px 2px 0 #FFFFFF;
+ 	}
+ 	#soustitre
+ {
+ 	display: inline;
+ 	margin-left: 15px;
+ 	font-size: 25px;
+ 	font-family: 'Courier Prime',normal ;
+ 	color:   #212424;
+	text-shadow: 1px 1px 0 #FFFFFF;
+ 	
+ 	
+ }
+#menu {
+ 	margin-top: 30px; }
+
+#menu ul
+{
+	list-style: none;
+	background-color: #242424;
+	display: flex;
+	padding:0;
+	margin: 0;
+	overflow: hidden;
+	}
+#menu li 
+{border:2px solid #242424;
+ border-left: 1px solid #323232;
+ border-right: 1px solid #131313;
+ position: relative;
+}
+ 
+
+ #menu li a
+{ /* on veut pouvoir agrandir le lien, ce qui n'est pas possible en inline (par défaut) */
+    display: block;
+    padding: 17px 24px;
+    /* par défaut les liens sont soulignés... enlever */
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#menu li a:hover
+{ background-color: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #787878),
+	color-stop(1, #000000)
+);
+background-image: -o-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -moz-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -webkit-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: -ms-linear-gradient(bottom, #787878 0%, #000000 100%);
+background-image: linear-gradient(to bottom, #787878 0%, #000000 100%);
+}
+
+
+/*MENU*/
+
+main 
+{
+	 text-align: center;
+}
+#principal
+{
+
+	display: flex;
+	width: 1000px;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+
+
+#sac img
+{
+	border:2px solid black;
+}
+#tshirt img
+{
+	border:2px solid black;
+}
+#mug img
+{
+	border:2px solid black;
+
+}
+
+.reseau img
+{
+	border:2px solid black;
+	box-shadow: 3px 3px #1c2124;
+	margin-right: 10px
+}
+
+
+ #mug 
+ { 
+ 	float: left;
+	width: 160px;
+	padding-top: 100px ;
+
+	}
+
+ #tshirt 
+ {
+ 	float: right;
+	width: 300px;
+	padding-top: 100px;		
+}
+
+ #sac 
+ {
+ 	margin-left: 220px;
+		margin-right: 280px;
+		padding-top: 74px;
+	}
+
+p {font-size: 22px;}
+
+#aider
+{
+	display: flex;
+	margin: 50px;
+	justify-content: space-between;
+
+}
+#aider p
+{
+	text-align:center;
+	font-family: Alea;
+}
+
+.b1 img
+{
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	box-shadow: 3px 3px black;
+}
+	
+
+
+.b2 img
+{
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	background-color: #403c3c;
+	box-shadow: 3px 3px black;
+}
+
+
+.b3 img
+{
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	background-color: #403c3c;
+	box-shadow: 3px 3px black;
+}
+#articles
+{
+	margin-bottom: 100px;
+}
+
+.payer p
+{
+	font-size:30px;
+	font-family: Alea;
+}
+.formulaire
+{
+	border:2px solid black;
+	box-shadow: 3px 3px #1c2124;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	
+}
+.formulaire ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+.formulaire li
+{
+	font-family: Alea;
+	color: #1c2124;
+	font-size:18px;
+	margin-top: 10px;
+
+
+}
+.mois input
+{
+	width: 40px; 
+}
+.annee input
+{
+	width: 40px;
+	margin-left: 15px; 
+}
+.formulaire div  
+{
+	display: flex;
+
+}
+.envoyer
+{
+	border:1px solid black;
+	background-color:#0059ff; 
+	color:white;
+	width: 125px;
+	font-size:20px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+#bas-de-page
+{
+	background-image:url(images/footerbp.jpg);
+}
+
+#bas-de-page-centre
+{
+	text-align: center;
+	color: #555555;
+	font-family: 'Roboto', sans-serif;
+	font-size:13.5px;
+}
+
+#bas-de-page-centre span
+{
+	font-size: 13.5px;
+	font-family: 'Courier Prime', ;
+}
